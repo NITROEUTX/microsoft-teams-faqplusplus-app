@@ -220,7 +220,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Welcome message when bot is added to a new team.</comment>
   </data>
   <data name="CustomMessage" xml:space="preserve">
-    <value>I couldn't find anything apt for your request. Do you want me to ask an expert?</value>
+    <value>I am unable to answer your response.  Please Ask an Expert</value>
     <comment>Message when user asks random question to the bot.</comment>
   </data>
   <data name="QuestionAskedFactTitle" xml:space="preserve">
@@ -423,7 +423,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>This value represents the SME Ticket in the Unassigned status</comment>
   </data>
   <data name="AskAnExpertSubheaderText" xml:space="preserve">
-    <value>The expert will respond to you directly with a chat message.</value>
+    <value>An Expert will respond to you directly with a chat message.  Ask an Expert is available during normal business hours, Monday – Friday (excluding major holidays).</value>
     <comment>Ask en expert card subtitle text:lets the user know that SME team member can directly chat with the requester.</comment>
   </data>
   <data name="DescriptionFact" xml:space="preserve">
