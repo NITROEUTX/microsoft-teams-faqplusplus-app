@@ -423,7 +423,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>This value represents the SME Ticket in the Unassigned status</comment>
   </data>
   <data name="AskAnExpertSubheaderText" xml:space="preserve">
-    <value>An Expert will respond to you directly with a chat message. /n Ask an Expert is available during normal business hours, Monday – Friday (excluding major holidays).</value>
+    <value>An Expert will respond to you directly with a chat message. Ask an Expert is available during normal business hours, Monday – Friday (excluding major holidays).</value>
     <comment>Ask en expert card subtitle text:lets the user know that SME team member can directly chat with the requester.</comment>
   </data>
   <data name="DescriptionFact" xml:space="preserve">
