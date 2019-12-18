@@ -253,16 +253,6 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     this.telemetryClient.TrackTrace("Sending user tour card");
                     var userTourCards = TourCarousel.GetUserTourCards(this.appBaseUri);
                     await turnContext.SendActivityAsync(MessageFactory.Carousel(userTourCards));
-                    //Sending it to QnA maker as well to handle Teams Tour Link:
-                    var queryResult = await this.GetAnswerFromQnAMakerAsync(text, turnContext, cancellationToken);
-                    if (queryResult != null)
-                    {
-                        await turnContext.SendActivityAsync(MessageFactory.Attachment(ResponseCard.GetCard(queryResult.Questions[0], queryResult.Answer, text)));
-                    }
-                    else
-                    {
-                        await turnContext.SendActivityAsync(MessageFactory.Attachment(UnrecognizedInputCard.GetCard(text)));
-                    }
                     break;
 
                 default:
@@ -299,16 +289,6 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     this.telemetryClient.TrackTrace("Sending team tour card");
                     var teamTourCards = TourCarousel.GetTeamTourCards(this.appBaseUri);
                     await turnContext.SendActivityAsync(MessageFactory.Carousel(teamTourCards));
-                    //Sending it to QnA maker as well to handle Teams Tour Link:
-                    var queryResult = await this.GetAnswerFromQnAMakerAsync(text, turnContext, cancellationToken);
-                    if (queryResult != null)
-                    {
-                        await turnContext.SendActivityAsync(MessageFactory.Attachment(ResponseCard.GetCard(queryResult.Questions[0], queryResult.Answer, text)));
-                    }
-                    else
-                    {
-                        await turnContext.SendActivityAsync(MessageFactory.Attachment(UnrecognizedInputCard.GetCard(text)));
-                    }
                     break;
 
                 default:
