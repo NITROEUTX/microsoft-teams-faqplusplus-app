@@ -37,7 +37,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
         {
             var data = new AskAnExpertCardPayload
             {
-                Description = payload.UserQuestion,     // Pre-populate the description with the user's question
+                Title = payload.UserQuestion,     // Pre-populate the description with the user's question
                 UserQuestion = payload.UserQuestion,
                 KnowledgeBaseAnswer = payload.KnowledgeBaseAnswer,
             };
