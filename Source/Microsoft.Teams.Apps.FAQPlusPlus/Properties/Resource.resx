@@ -138,7 +138,7 @@
     <comment>Explains what bot does and possible questions.</comment>
   </data>
   <data name="FunctionCardText2" xml:space="preserve">
-    <value>You can ask me a question by typing it in the chat box below  I'll try my best to answer it.Take a quick tour of Teams: https://teamsdemo.office.com </value>
+    <value>You can ask me a question by typing it in the chat box below  I'll try my best to answer it. For a Quick tour of Team, please visit https://teamsdemo.office.com</value>
     <comment>Suggests the user to ask question.</comment>
   </data>
   <data name="ShareFeedbackButtonText" xml:space="preserve">
