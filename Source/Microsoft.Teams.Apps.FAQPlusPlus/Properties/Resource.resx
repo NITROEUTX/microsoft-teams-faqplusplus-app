@@ -138,7 +138,7 @@
     <comment>Explains what bot does and possible questions.</comment>
   </data>
   <data name="FunctionCardText2" xml:space="preserve">
-    <value>You can ask me a question by typing it in the chat box below  I'll try my best to answer it...</value>
+    <value>You can ask me a question by typing it in the chat box below  I'll try my best to answer it. [Click here](https://teamsdemo.office.com) to take a quick tour of Teams</value>
     <comment>Suggests the user to ask question.</comment>
   </data>
   <data name="ShareFeedbackButtonText" xml:space="preserve">
@@ -220,7 +220,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>Welcome message when bot is added to a new team.</comment>
   </data>
   <data name="CustomMessage" xml:space="preserve">
-    <value>I am unable to answer your response.  Please Ask an Expert</value>
+    <value>I could not find a suitable response for your request. Please Ask an Expert.</value>
     <comment>Message when user asks random question to the bot.</comment>
   </data>
   <data name="QuestionAskedFactTitle" xml:space="preserve">
@@ -423,7 +423,7 @@ I am your friendly Q&amp;A bot that helps you provide support to people who inte
     <comment>This value represents the SME Ticket in the Unassigned status</comment>
   </data>
   <data name="AskAnExpertSubheaderText" xml:space="preserve">
-    <value>An Expert will respond to you directly with a chat message. Ask an Expert is available during normal business hours, Monday – Friday (excluding major holidays).</value>
+    <value>An Expert will respond to you directly with a chat message during your business hours, Monday – Friday.</value>
     <comment>Ask en expert card subtitle text:lets the user know that SME team member can directly chat with the requester.</comment>
   </data>
   <data name="DescriptionFact" xml:space="preserve">
